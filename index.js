@@ -32,8 +32,51 @@
 // }else {
 //     console.log("Letter grade Fail");
 // }
-var x = 5;
-var y = 10;
-var result =(x<10) && (y > 5);
+// var x = 5;
+// var y = 10;
+// var result = (x>10) || (y < 10);
    
-console.log(result);
+// console.log(result);
+
+// const fruits = ["banana", "apple", "mango", "orange", "lemon"];
+// const citrus= fruits.slice(1,4);
+// console.log(citrus);
+
+
+let day = "Friday";
+switch (day) {
+    case 'Monday':
+    console.log("Start of the workweek");
+    break;
+    case 'Tuesday':
+    case 'Wednesday':
+    case 'Thursday':
+    console.log('Midweek days');
+    break;
+    case 'Friday':
+    console.log('End of the workweek');
+    break;
+    default:
+    console.log('weekend');
+    break;
+}
+
+
+// let day = 'Monday';
+
+// switch (day) {
+//   case 'Monday':
+//     console.log('Start of the workweek');
+//     break;
+//   case 'Tuesday':
+//   case 'Wednesday':
+//   case 'Thursday':
+//     console.log('Midweek days');
+//     break;
+//   case 'Friday':
+//     console.log('End of the workweek');
+//     break;
+//   default:
+//     console.log('Weekend');
+//     break;
+// }
